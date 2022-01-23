@@ -44,6 +44,5 @@ public class SearchInArray
         {
             System.out.println("Search Element Not Found!!");
         }
-
     }
 }
