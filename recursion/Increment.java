@@ -8,14 +8,12 @@ public class Increment
     int n,print;
     Increment()
     {
-        System.out.println("Print numbers till value");
+        System.out.println("Print numbers till value : ");
         n = sc.nextInt();
         print = 1;
     }
     public void increment(int n,int print)
     {
-        if (n==1)
-            System.out.println(n);
         if (print <= n)
         {
             System.out.println(print);
